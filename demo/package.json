@@ -2,7 +2,7 @@
   "name": "google-sheets-api-demo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://summerworkereccc.github.io/google-sheets-api-demo",
+  "homepage": "https://e3c-summer-worker.github.io/google-sheets/",
   "dependencies": {
     "@geist-ui/react": "^2.2.0-rc.8",
     "@testing-library/jest-dom": "^5.14.1",
