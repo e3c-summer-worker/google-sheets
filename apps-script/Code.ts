@@ -130,7 +130,7 @@ const uploadToDeta = () => {
 
     } catch (err) {
         Logger.log('Error!' + JSON.stringify(err))
-        ui.alert(err);
+        ui.alert('Error!', err, ui.ButtonSet.OK);
     }
 }
 
