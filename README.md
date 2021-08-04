@@ -1,8 +1,8 @@
 # Google Sheets
 
-A repo storing all the google sheet stuff.
+A repo storing all the google sheet related stuff.
 
-## folders:
+## Folders:
 
 `server/`: Hosts the Deta Micro stuff (in Python)
 `demo/`: Hosts the client demo (hosted on GH Pages)
