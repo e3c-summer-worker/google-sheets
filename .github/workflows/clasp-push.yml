@@ -1,0 +1,30 @@
+name: Deploy Google Apps Script via Clasp
+on:
+  push:
+    paths:
+      - apps-script/**/*.ts
+      - apps-script/appsscript.json
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.4
+
+      - name: Lock Node Version 🔒
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+
+      - name: Deploy 🚀
+        uses: joshuanianji/clasp-action@test
+        with:
+          # These and below are all the organization-wide secrets
+          # Found via ~/.clasprc.json by `clasp login`
+          accessToken: ${{ secrets.CLASP_ACCESS_TOKEN }}
+          idToken: ${{ secrets.CLASP_ID_TOKEN }}
+          refreshToken: ${{ secrets.CLASP_REFRESH_TOKEN }}
+          clientId: ${{ secrets.CLASP_CLIENT_ID }}
+          clientSecret: ${{ secrets.CLASP_CLIENT_SECRET }}
+          scriptId: ${{ secrets.SCRIPT_ID }} # This one is stores locally on the repo, however
+          command: "push"
