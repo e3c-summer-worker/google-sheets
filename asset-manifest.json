@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/google-sheets/static/css/main.701a332e.chunk.css",
+    "main.js": "/google-sheets/static/js/main.3d4c1384.chunk.js",
+    "main.js.map": "/google-sheets/static/js/main.3d4c1384.chunk.js.map",
+    "runtime-main.js": "/google-sheets/static/js/runtime-main.63309c9b.js",
+    "runtime-main.js.map": "/google-sheets/static/js/runtime-main.63309c9b.js.map",
+    "static/js/2.4287ee3d.chunk.js": "/google-sheets/static/js/2.4287ee3d.chunk.js",
+    "static/js/2.4287ee3d.chunk.js.map": "/google-sheets/static/js/2.4287ee3d.chunk.js.map",
+    "static/js/3.5b3e5d07.chunk.js": "/google-sheets/static/js/3.5b3e5d07.chunk.js",
+    "static/js/3.5b3e5d07.chunk.js.map": "/google-sheets/static/js/3.5b3e5d07.chunk.js.map",
+    "index.html": "/google-sheets/index.html",
+    "static/css/main.701a332e.chunk.css.map": "/google-sheets/static/css/main.701a332e.chunk.css.map",
+    "static/js/2.4287ee3d.chunk.js.LICENSE.txt": "/google-sheets/static/js/2.4287ee3d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63309c9b.js",
+    "static/js/2.4287ee3d.chunk.js",
+    "static/css/main.701a332e.chunk.css",
+    "static/js/main.3d4c1384.chunk.js"
+  ]
+}
