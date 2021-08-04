@@ -126,7 +126,7 @@ const uploadToDeta = () => {
         const response = postToDeta(payload)
         Logger.log('Response!' + JSON.stringify(response))
 
-        ui.alert('Deployment Success!', 'Data is now updated on the cloud!', ui.ButtonSet.OK);
+        ui.alert('Deployment Success!', `Data is now updated on the cloud! See the data at https://q77r6a.deta.dev/sheet/${spreadsheet.getId()}`, ui.ButtonSet.OK);
 
     } catch (err) {
         Logger.log('Error!' + JSON.stringify(err))
