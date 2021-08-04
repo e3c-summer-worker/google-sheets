@@ -1,7 +1,7 @@
 name: Deploy server/ to Deta
 on:
   push:
-    paths: server/**/*.py
+    paths: "server/**/*.py"
 
 jobs:
   deploy:

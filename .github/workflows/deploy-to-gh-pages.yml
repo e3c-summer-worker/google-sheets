@@ -2,8 +2,8 @@ name: Deploy Demo to Github Pages
 on:
   push:
     paths:
-      - demo/*
-      - !demo/README.md
+      - "demo/*"
+      - "!demo/README.md"
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest

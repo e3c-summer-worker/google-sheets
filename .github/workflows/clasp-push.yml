@@ -2,8 +2,8 @@ name: Deploy Google Apps Script via Clasp
 on:
   push:
     paths:
-      - apps-script/**/*.ts
-      - apps-script/appsscript.json
+      - "apps-script/**/*.ts"
+      - "apps-script/appsscript.json"
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
