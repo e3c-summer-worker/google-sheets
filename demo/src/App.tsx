@@ -35,7 +35,7 @@ const Footer = () => (
             <TSIcon size={20} />
         </Grid>
         <Grid xs={24} justify='center'>
-            <Link href='https://github.com/SummerWorkerECCC/google-sheets-api-demo/tree/main' color block>
+            <Link href='https://github.com/e3c-summer-worker/google-sheets/tree/main/demo' color block>
                 <GithubIcon size={20} />
             </Link>
         </Grid>

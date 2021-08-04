@@ -1,6 +1,6 @@
 # Google Sheets API Demo
 
-A Demo with the [Google Sheets API](https://developers.google.com/sheets/) - THIS NEEDS TO BE UPDATED TO USE THE NEW API.
+A Demo with the [Google Sheets API](https://developers.google.com/sheets/).
 
 This demonstrated how we can fetch data from a google sheets and display it onto a table.
 
