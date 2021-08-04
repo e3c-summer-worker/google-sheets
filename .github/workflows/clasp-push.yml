@@ -13,8 +13,6 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.4
-        with:
-          path: ""
 
       - name: Lock Node Version 🔒
         uses: actions/setup-node@v2
@@ -33,3 +31,4 @@ jobs:
           clientSecret: ${{ secrets.CLASP_CLIENT_SECRET }}
           scriptId: ${{ secrets.SCRIPT_ID }} # This one is stores locally on the repo, however
           command: "push"
+          rootDir: "apps-script"
