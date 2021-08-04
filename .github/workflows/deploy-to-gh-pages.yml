@@ -2,7 +2,7 @@ name: Deploy Demo to Github Pages
 on:
   push:
     paths:
-      - "demo/*"
+      - "demo/**"
       - "!demo/README.md"
 jobs:
   build-and-deploy:
