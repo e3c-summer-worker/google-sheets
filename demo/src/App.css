@@ -1,0 +1,14 @@
+/* removes margin from section#page when the screen is mobile */
+@media screen and (max-width: 767px) {
+  /* this fixes a weird bug where the footer is too wide, because of its absolute positioning. */
+  section#page {
+    margin: 0 calc(1.34 * 16px);
+    padding: 0;
+    width: stretch;
+  }
+
+  #footer {
+    left: 0;
+    position: relative;
+  }
+}
