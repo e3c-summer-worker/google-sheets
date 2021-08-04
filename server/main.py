@@ -20,7 +20,7 @@ sheets_db = deta.Base('sheets')
 
 @app.get("/", response_class=PlainTextResponse)
 def render():
-    return "Google Sheets server is working!"
+    return "Google Sheets server is working!!"
 
 
 @app.post("/upload")
