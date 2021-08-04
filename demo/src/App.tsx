@@ -9,7 +9,7 @@ import './App.css'
 const App: React.FC = () => (
     <Page id='page'>
         <Page.Header center>
-            <Text h1 style={{ textAlign: 'center' }}>Google Sheets API Demo</Text>
+            <Text h1 style={{ textAlign: 'center' }}>Google Sheets API Demo - v2</Text>
         </Page.Header>
         <Page.Content>
             <SpreadsheetInfo />
