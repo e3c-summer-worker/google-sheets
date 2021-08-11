@@ -1,14 +1,16 @@
 name: Deploy server/ to Deta
 on:
   push:
-    paths: "server/**/*.py"
+    paths:
+      - "server/**/*.py"
+      - ".github/workflows/deploy-to-deta.yml" ## This file
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2 #Be sure you check-out the repo first. Deta CLI needs access to the files
-      - uses: MatyiFKBT/deta-deploy-action@02efb1e328dd11a9abbba82fbc87475f45082888
+      - uses: joshuanianji/deta-deploy-action@05cabf4b32db52456c336ce110bdb8b40d4e77df
         with:
           deta-access-token: ${{ secrets.DETA_TOKEN_OG1KJ676 }} #Deta access token https://docs.deta.sh/docs/cli/auth
           deta-name: "main_micro" #Deta Micro name https://docs.deta.sh/docs/cli/commands/#deta-clone
