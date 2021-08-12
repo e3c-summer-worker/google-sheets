@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2 #Be sure you check-out the repo first. Deta CLI needs access to the files
-      - uses: joshuanianji/deta-deploy-action@05cabf4b32db52456c336ce110bdb8b40d4e77df
+      - uses: BogDAAAMN/deta-deploy-action@v1.0.1
         with:
           deta-access-token: ${{ secrets.DETA_TOKEN_OG1KJ676 }} #Deta access token https://docs.deta.sh/docs/cli/auth
           deta-name: "main_micro" #Deta Micro name https://docs.deta.sh/docs/cli/commands/#deta-clone
