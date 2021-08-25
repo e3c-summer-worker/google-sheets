@@ -20,7 +20,7 @@ jobs:
           node-version: "16"
 
       - name: Deploy 🚀
-        uses: joshuanianji/clasp-action@test
+        uses: daikikatsuragawa/clasp-action@v1.0.1
         with:
           # These and below are all the organization-wide secrets
           # Found via ~/.clasprc.json by `clasp login`
