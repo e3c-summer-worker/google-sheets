@@ -4,6 +4,7 @@ on:
     paths:
       - "apps-script/**/*.ts"
       - "apps-script/appsscript.json"
+      - ".github/workflows/clasp-push.yml" ## This file
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
