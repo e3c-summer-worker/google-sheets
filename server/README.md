@@ -2,7 +2,7 @@
 
 Google Sheets API middleware with Deta, written in FastAPI.
 
-## Get Started:
+## Get Started
 
 ```bash
 source venv/bin/activate
