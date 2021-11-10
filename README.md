@@ -1,6 +1,6 @@
 # Google Sheets
 
-A repo storing all the Google Sheets related stuff. Currently, it is maonly used for the homepage ticker.
+A repo storing all the Google Sheets related stuff. Currently, it is mainly used for the homepage ticker.
 
 ## Folders
 
